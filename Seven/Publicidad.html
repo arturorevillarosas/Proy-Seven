@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+
+    <link rel="stylesheet" href="estilosbarra.css">
+
+
+
+	 <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<title>jQuery UI Example Page</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+
+	<style>
+#line {padding: 20px 10px;}
+.conti {width:80px; float:left; white-space:nowrap; overflow:visible;}
+.sprite-conti {position:relative; width:80px; height:85px;}
+.sprite {width: 80px; position:absolute;}
+.sprite-image {width: 100%; border:0;}
+.text-conti {text-align:center; margin-top:15px; font-family:arial; font-weight:bold; font-size:12px; color: grey;}
+.arrow {float:left; width:20px; height: 75px; padding-top:30px;}
+</style>
+<script>
+function imageHover(object) {
+  //console.log("over");
+  $(object).stop().animate({
+    width: "150%",
+    left: "-20px",
+    top: "-20px"
+  });
+}
+
+function imageHout(object) {
+  //console.log("out");
+  $(object).stop().animate({
+    width: "100%",
+    left: "0px",
+    top: "0px"
+  });
+}
+</script>
+
+</head>
+<body>
+<br>
+               <img src="seven.png" alt="" width="150" height="90" align="left"> 
+
+ <header>
+
+     <ul >
+     
+          <li class="col-lg-4 col-md-4 col-xs-4"> <a href="RED SOCIAL.html">Inicio <span></span></span></span><span></span></span></span></a></li>
+           <li class="col-lg-4 col-md-4 col-xs-4"> <a href="index.html">Sev7n <span></span></span></span><span></span></span></span></a></li>
+          </a></li>
+          <li class="col-lg-4 col-md-4 col-xs-4"> <a href="perfil.html">Perfil <span></span></span></span> <span></span></span></span></a></li>
+    <li class="col-lg-4 col-md-4 col-xs-4"> <a href="jquery-ui-1.12.1/Publicidad.html">Publicidad <span></span></span></span> <span></span></span></span></a></li>
+          
+     </ul>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Tabs -->
+<h2 class="demoHeaders">Pasos para trabajar nosotros</h2>
+<div id="tabs">
+	<ul>
+
+		<li><a href="#tabs-1">Proyectos  </a></li>
+		<li><a href="#tabs-2">Pago</a></li>
+		<li><a href="#tabs-3">Subir platos</a></li>
+	</ul>
+	<div id="tabs-1" align="center">
+
+
+<div>
+
+<div id="line" class="p clearfix">
+
+ <div class="conti" align="center">
+ <div class="sprite-conti">
+  <div class="sprite" onmouseover="imageHover(this);" onmouseout="imageHout(this);" >
+  
+    <img class="sprite-image" src="buscar empleo.png" >
+   
+  </div>
+ </div>
+ <div class="text-conti">
+ Publicidad
+ </div>
+ </div>
+ 
+ <div class="arrow">
+ </div>
+
+ <div class="conti">
+ <div class="sprite-conti">
+  <div class="sprite" onmouseover="imageHover(this);" onmouseout="imageHout(this);">
+   
+    <img class="sprite-image" src="solicitud.png" data-pin-nopin="true"></a></div>
+   
+ </div>
+ <div class="text-conti">
+ Solicitud
+ </div>
+ </div>
+ 
+ <div class="arrow">
+ </div>
+
+ <div class="conti">
+ <div class="sprite-conti">
+  <div class="sprite" onmouseover="imageHover(this);" onmouseout="imageHout(this);" >
+  
+    <img class="sprite-image" src="estado de solicitud.png" ></a></div>
+   </a>
+ </div>
+ <div class="text-conti">
+ Estado de <br>tu Solicitud
+ </div>
+ </div>
+ 
+ <div class="arrow">
+ </div>
+
+ <div class="conti">
+ <div class="sprite-conti">
+  <div class="sprite" onmouseover="imageHover(this);" onmouseout="imageHout(this);">
+    <img class="sprite-image" src="entrevista.png" ></a></div>
+ </div>
+ <div class="text-conti">
+ La Entrevista
+ </div>
+ </div>
+ 
+ <div class="arrow">
+ </div>
+
+ <div class="conti">
+ <div class="sprite-conti">
+  <div class="sprite" onmouseover="imageHover(this);" onmouseout="imageHout(this)">
+   
+    <img class="sprite-image" src="hecho.png"></a></div>
+   </a>
+ </div>
+ <div class="text-conti">
+ Hecho!
+ </div>
+ </div>
+ 
+ <div class="arrow">
+ </div>
+
+ <div class="conti">
+ <div class="sprite-conti">
+  <div class="sprite" onmouseover="imageHover(this);" onmouseout="imageHout(this);" >
+
+    <img class="sprite-image" src="incorporacion.png"></div>
+ </div>
+ <div class="text-conti">
+ Incorporación
+ </div>
+ </div>
+ 
+</div>
+
+      </div>
+
+<p>
+Seven es un lugar donde puede hacer realidad ser Conocida su marca. Ya conoce nuestra cultura de innovación, está entusiasmado por formar parte de un equipo global de expertos y está motivado para dejar huella incorporándose a una Compañía líder. ¿Entonces qué hacer ahora? En esta sección le explicaremos el proceso a seguir para encontrar, solicitar y obtener la fama  de marca de sus sueños en Seven y le haremos recomendaciones útiles para presentar  con éxito.
+</p>
+
+
+
+
+	.</div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="tabs-2">
+	<form class="form-horizontal" style="padding-right:300px;">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Pago a proveedores</legend>
+
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="CardHolder">Nombre del Tarjeta habiente</label>  
+  <div class="col-md-8">
+  <input id="CardHolder" name="CardHolder" type="text" placeholder="Nombres Apellidos" class="form-control input-md" required="">
+  <span class="help-block">Ingrese Nombres y Apellidos igual que aparece en su tarjeta</span>  
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="tipo_tarjeta">Seleccione Tipo de Tarjeta</label>
+  <div class="col-md-8">
+    <select id="tipo_tarjeta" name="tipo_tarjeta" class="form-control">
+      <option value="VISA">VISA</option>
+      <option value="MASTER CARD">MASTER CARD</option>
+      <option value="AMERICAN EXPRESS">AMERICAN EXPRESS</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="CardNumber">Nro. Tarjeta</label>  
+  <div class="col-md-8">
+  <input id="CardNumber" name="CardNumber" type="text" placeholder="Ingrese Numero de tarjeta" class="form-control input-md" required="">
+  <span class="help-block">Numero de la tarjeta de crédito, sin espacios ni separadores.</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ExpirationDate">Fecha de Vencimiento</label>  
+  <div class="col-md-8">
+  <input id="ExpirationDate" name="ExpirationDate" type="text" placeholder="MM/YYYY" class="form-control input-md" required="">
+  <span class="help-block">Fecha de expiración de la tarjeta en el formato mostrado en la misma MM/YYYY. Por Ejemplo: 10/2016.</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="cvc">CVC</label>  
+  <div class="col-md-8">
+  <input id="cvc" name="cvc" type="text" placeholder="CVC" class="form-control input-md" required="">
+  <span class="help-block">Ingrese : Código secreto de la Tarjeta de crédito, localizada en el dorso</span>  
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="State">Distrito</label>
+  <div class="col-md-8">
+    <select id="State" name="State" class="form-control">
+      <option value="Amazonas">Cercado de lima</option>
+      <option value="Anzoátegui">LA MOLINA</option>
+      <option value="Apure">SAN BORJA</option>
+      <option value="Aragua">SURCO</option>
+      <option value="Barinas">CHACLACAYO</option>
+      <option value="Bolívar">CHOSICA</option>
+      <option value="Carabobo">SURQUILLO</option>
+      <option value="Cojedes">MANCHAY</option>
+      <option value="Delta Amacuro">SJ DE LURIGANCHO</option>
+      <option value="Distrito Capital">SAN ISIDRO</option>
+      <option value="Falcón">CALLAO</option>
+      <option value="Guárico">ATE</option>
+      <option value="Lara">MIRAFLORES</option>
+      <option value="Mérida">BARRANCO</option>
+      <option value="Miranda">CHORRILLOS</option>
+      <option value="Monagas">LA VICTORIA</option>
+      <option value="Nueva Esparta">COMAS</option>
+      <option value="Portuguesa">VILLA MARIA DEL TRIUNFO</option>
+      <option value="Sucre">BARRIOS ALTOS</option>
+      
+    </select>
+  </div>
+</div>
+
+
+<!-- Text input-->
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Address">Direccion</label>  
+  <div class="col-md-8">
+  <input id="Address" name="Address" type="text" placeholder="Direccion" class="form-control input-md">
+  <span class="help-block">Estado o provincia asociada a la tarjeta, Utilizada por algunos bancos para mayor seguridad.</span>  
+  </div>
+</div>
+
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton">Procesar Pago</label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-success">Pagar</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="tabs-3">
+		<div id="contenedor">
+		<div class="container">
+		<br>
+		<form action="">
+			<div class="form-group col-lg-8">
+				<center><label for="nombre">Nombre de la marca:</label></center> <br>
+				<input class="form-control" type="text" id="nombre" placeholder="Nombre:">
+			</div>
+			
+			<div class="form-group">
+				
+				
+			</div>
+			<div class="form-group col-lg-8">
+				<center><label for="mensaje">Descripcion:</label></center>
+				<textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+			</div>
+			<div class="form-group">
+				<center><label for="archivo">Archivo:</label>
+				<input type="file" id="archivo">
+				<p class="">Maximo 9MB</p>
+			</div>
+			<div class="">
+				
+			<center><button class="btn btn-primary col-lg-12">Enviar</button></center>
+		</form>
+	</div>
+	</div>
+
+	<div id="usuario"> 
+	 <div class="usuario">
+	 	
+	 </div>
+	</div>
+
+
+	</div>
+</div>
+
+
+
+
+</div>
+
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+
+
+
+$( "#tabs" ).tabs();
+
+
+
+</script>
+</body>
+</html>

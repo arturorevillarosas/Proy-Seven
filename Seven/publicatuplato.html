@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+
+    <link rel="stylesheet" href="estilosbarra.css">
+
+
+
+	 <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<title>jQuery UI Example Page</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+
+	<style>
+#line {padding: 20px 10px;}
+.conti {width:80px; float:left; white-space:nowrap; overflow:visible;}
+.sprite-conti {position:relative; width:80px; height:85px;}
+.sprite {width: 80px; position:absolute;}
+.sprite-image {width: 100%; border:0;}
+.text-conti {text-align:center; margin-top:15px; font-family:arial; font-weight:bold; font-size:12px; color: grey;}
+.arrow {float:left; width:20px; height: 75px; padding-top:30px;}
+</style>
+<script>
+function imageHover(object) {
+  //console.log("over");
+  $(object).stop().animate({
+    width: "150%",
+    left: "-20px",
+    top: "-20px"
+  });
+}
+
+function imageHout(object) {
+  //console.log("out");
+  $(object).stop().animate({
+    width: "100%",
+    left: "0px",
+    top: "0px"
+  });
+}
+</script>
+
+</head>
+<body>
+ <header>
+     <ul >
+     
+           <li class="col-lg-4 col-md-4 col-xs-4"> <a href="#">Inicio <span></span></span></span><span></span></span></span></a></li>
+          <li class="col-lg-4 col-md-4 col-xs-4" > <a href="registrar.html">Registro <span></span></span></span> <span></span></span></span></a></li>
+          <li class="col-lg-4 col-md-4 col-xs-4"> <a href="perfil.html">Perfil <span></span></span></span> <span></span></span></span></a></li>
+          <li class="col-lg-4 col-md-4 col-xs-4"> <a href="publicaciones.html">Publica <span></span></span></span> <span></span></span></span></a></li>
+          
+     </ul>
+    </header>
+<script type="text/javascript">
+
+
+  if(Modernizr.geolocation) { 
+    alert('El explorador soporta geolocalización'); 
+} else { 
+    alert('El explorador NO soporta geolocalización'); 
+}
+</script>
+
+<h1>PUBLICA TU PLATO EN TRES SENCILLOS PASOS</h1>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">1</a></li>
+    <li><a href="#tabs-2">2</a></li>
+    <li><a href="#tabs-3">3</a></li>
+  </ul>
+  <div id="tabs-1">
+  <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <div class="form-group col-lg-12">
+        <center><label for="nombre">Nombre de la marca:</label></center> <br>
+        <input class="form-control" type="text" id="nombre" placeholder="Nombre:">
+      </div>
+      
+      <div class="form-group">
+        
+        
+      </div>
+      <div class="form-group">
+        <center><label for="archivo">Archivo:</label>
+        <input type="file" id="archivo">
+        <p class="">Maximo 9MB</p>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+  </div>
+  <div id="tabs-2">
+  <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <div class="form-group col-lg-12">
+        <center><label for="mensaje">Descripcion:</label></center>
+        <textarea class="form-control" style="height: 500px;" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     
+
+  </div>
+  <div id="tabs-3">
+  <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <label data-placement="bottom" data-toggle="tooltip" data-original-title="Marca esta opción si quieres el cliente sea quien se acerque a tu direccion o lugar que tu le indiques a recoger tu plato." class="btn btn-default btn-lg btn-block">
+      <input type="radio" ng-model="upload.dish.delivery" value="pickup" class="btn btn-default ng-valid ng-dirty ng-valid-parse ng-touched" name="36">
+      <span class="fa fa-child fa-3x fa-fw pull-left"></span>
+      El cliente tiene que recoger el pedido<br>
+
+    </label>
+    <br>
+    
+    <label data-placement="bottom" data-toggle="tooltip" data-original-title="Marca esta opción si quieres el cliente sea quien se acerque a tu direccion o lugar que tu le indiques a recoger tu plato." class="btn btn-default btn-lg btn-block">
+      <input type="radio" ng-model="upload.dish.delivery" value="pickup" class="btn btn-default ng-valid ng-dirty ng-valid-parse ng-touched" name="36">
+      <span class="fa fa-child fa-3x fa-fw pull-left"></span>
+      Entrego a Domicilio en Mi Zona<br>
+
+    </label>
+    <br>
+    <label data-placement="bottom" data-toggle="tooltip" data-original-title="Marca esta opción si quieres el cliente sea quien se acerque a tu direccion o lugar que tu le indiques a recoger tu plato." class="btn btn-default btn-lg btn-block">
+      <input type="radio" ng-model="upload.dish.delivery" value="pickup" class="btn btn-default ng-valid ng-dirty ng-valid-parse ng-touched" name="36">
+      <span class="fa fa-child fa-3x fa-fw pull-left"></span>
+      Cocino a Domicilio<br>
+
+    </label>
+      <br>
+      <br>
+      <br>
+    <div class="form-group col-lg-12">
+        <center><label for="Ubicacion">Escribe tu Ubicaicion</label></center> <br>
+        <input class="form-control" type="text" id="nombre" placeholder="Nombre:">
+      </div>
+      <center><button class="btn btn-primary col-lg-12">Publicar</button></center>
+          <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+  </div>
+
+</div>
+
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+$( "#tabs" ).tabs();
+</script>
+</body>
+</html>

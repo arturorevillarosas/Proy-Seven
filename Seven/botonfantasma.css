@@ -1,0 +1,64 @@
+
+.btn-i{
+    width: 135px;
+    margin: 20px 10px 30px 80px;
+    height: 40px;
+    background: transparent;
+}
+.btn-r{
+    width: 135px;
+    margin: 20px 10px 30px 80px;
+    height: 40px;
+    background: transparent;
+
+}
+
+.btn-cancel{
+    border: none;
+    width: 135px;
+    position: relative;
+    text-decoration: underline;
+    background: transparent;
+
+}
+.formulario{
+    width: 100%;
+    color: #3104B4;
+    padding: 50px;
+    margin: auto;s
+}
+.grupo{
+    position: relative;
+    left: 650px;
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+#user{
+    position: relative;
+    left: 145px;
+}
+#pass{
+    position: relative;
+    left: 100px;
+}
+#pass1{
+    position: relative;
+    left: 28px;
+}
+#nom{
+    position: relative;
+    left: 125px;
+}
+#ape{
+    position: relative;
+    left: 122px;
+}
+#dni{
+    position: relative;
+    left: 158px;
+}
+#dir{
+    position: relative;
+    left: 113px;
+
+}

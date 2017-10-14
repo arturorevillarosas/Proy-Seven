@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,200);
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+p
+{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: lighter;
+}
+
+section.contenedor
+{
+	width: 100%;
+	min-height: 400px;
+	
+	overflow: hidden;
+	background-position: 0 50%;
+	background-attachment: fixed;
+	background-repeat:no-repeat; 
+	border-bottom: 1px solid #D6D6D6;
+}
+
+section#cont1
+{
+	margin-top: 500px;
+	background-image: url(comida1.png);
+}
+section#cont2
+{
+	background-image: url(comida2.png);
+}
+section#cont3
+{
+	background-image: url(comida2.png);
+}
+
+section.texto
+{
+	float: right;
+	width: 50%;
+	min-height: 400px;
+	
+}
+p.titulo
+{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 3em;
+	color: #2C2C2C;
+}
+
+
+p.texto
+{
+	margin: 20px;
+	font-size: 1.5em;
+	color: #818181;
+	line-height: 35px;
+}

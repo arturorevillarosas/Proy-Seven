@@ -1,0 +1,29 @@
+body
+{
+	margin:0;
+height: 7000px;
+background: white;
+}
+
+video
+{
+	width: 100%;
+    margin-top: 70px;
+    
+    z-index: -100;
+	
+	 
+}
+.container
+{
+	margin-top: -605px;
+	z-index: 2;
+	position: relative;
+}
+
+img
+{
+	width: 250px;
+	height: 250px;
+	
+}

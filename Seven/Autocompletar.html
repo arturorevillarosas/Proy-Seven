@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="jquery-ui.js"></script>
+</body>
+	<center><div>
+			<h2> Busque por Facultad : </h2>
+			<div>
+			<input id="completar">
+			</div>
+			<h2> Busque el alumno : <h2>
+			<div >
+				<input id="texto">
+			</div>
+			<h2> Busque por Codigo de Alumno:</h2>
+			
+				<input id="juntar">
+			</div>
+	</div></center>
+</body>
+<script>
+var availableTags = [
+	"Facultad de Derecho", "Facultad de Ciencias Contables Económicas y Financieras", "Facultad de Ciencias de la Comunicación, Turismo y Psicología", "Facultad de Ingeniería y Arquitectura", "Facultad de Ciencias Administrativas y Recursos Humanos", "Facultad de Medicina Humana", "Facultad de Odontología",
+	"Instituto para la Calidad de la Educación", "Instituto de Arte"
+];
+$( "#completar" ).autocomplete({
+	source: availableTags
+});
+
+var rellenar = ["Juan", "Carlos", "Victor", "Pedro", "Mauricio", "Alex", "Diego", "Martin", "Carlos", "Angel", "Miguel", "Maria", 
+				"Laura", "Lisbeth", "Angela", "Sandra", "Claudia", "Jazmin", "Jennifer" , "Diana" ];
+	$("#texto").autocomplete({
+		source : rellenar
+	});	
+var completar = [ "2013137095" , "2014137065" , "2010137092" , "2015137094" ,  "2016137025" , "2015137015" , "2012137055" , "2018137095" ,  "2015137095" , 
+				];
+	$("#juntar").autocomplete({
+		source : completar
+	});		
+</script>	
+
+

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="jquery-ui.js"></script>
+	<style type="text/css">
+		#container1{width: 400px; height: 500px; border : 2px solid black;}
+		#container2{width: 400px; height: 500px; border : 2px solid black; margin-left: 600px; margin-top: -505px;	}
+		#caja{ width: 100px; height: 100px; background-color: lightgreen; border : 3px solid black; }
+		#caja2{ width: 100px; height: 100px; background-color: lightblue; border : 3px solid black; }
+		#caja3{width: 100px; height: 100px; background-color: gray; border : 3px solid black;}
+		#caja4{width: 100px; height: 100px; background-color: orange; border : 3px solid black;}
+	</style>
+<body>	
+	<div id="todo">
+	<div id="container1">
+	<div id="caja"> <p>Mover la caja 1</p></div>
+	<div id="caja2"> <p>Mover la caja 2</p></div>
+</div>
+
+<div id="container2">
+	<div id="caja3"> <p>Mover la caja 3</p></div>
+	<div id="caja4"> <p>Mover la caja 4</p></div>
+</div>
+</body>		
+<script type="text/javascript">
+  $(document).ready(primeraCaja);	
+  function primeraCaja(){ $("#caja").draggable({ containment : 'parent'});}
+
+  $(document).ready(segundaCaja);
+  function segundaCaja(){ $("#caja2").draggable({ });}
+
+  $(document).ready(terceraCaja);
+  function terceraCaja(){$("#caja3").draggable({ revert : true }); }
+
+
+   $(document).ready(cuartaCaja);
+  function cuartaCaja(){$("#caja4").draggable({axis : 'x' }); }
+
+ 
+ </script>

@@ -1,0 +1,52 @@
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,200);
+body
+{
+	background-color: #ecf0f1;
+}
+div#descripcion
+{
+	
+	height: 800px;
+	margin-left: 50px;
+	margin-top: 80px;
+}
+
+div#titulo
+{
+	margin-top: 30px;
+	
+  height: 60px;
+  width: 805px;
+  background-color: #7f8c8d;
+}
+div#precio
+{
+	margin-top: 10px;
+	
+  height: 60px;
+  width: 805px;
+  background-color: #e74c3c;
+}
+
+
+img
+{
+	margin-top: 5px;
+	width: 400px;
+	height: 350px;
+}
+h3#precio
+{
+	margin-bottom: 10px;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	margin-right: 50px;
+}
+
+
+p#texto
+{
+	margin-top: 100px;
+}
+

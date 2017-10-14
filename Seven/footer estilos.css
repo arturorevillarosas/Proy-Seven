@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Chettan';
+@import 'menu.css';
+@import 'banner.css';
+@import 'blog.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index:100;
+    
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+h1{
+    float:left;
+}
+h2{
+    color: black;
+}
+header .contenedor{
+    display: table;
+}
+section {
+    
+}
+#bienvenidos{
+    text-align: center;
+}
+.tamaño
+{
+    height: 100px;
+}
+.clase
+{
+    color: black;
+}
